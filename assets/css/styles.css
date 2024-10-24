@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    max-width: 100%;
     background-image: url("../images/logolets.png");
 
     background-position: center;
@@ -35,7 +36,7 @@ h1 {
 .div1 {
     background-color: transparent;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: fixed;
     top: 0;
     /* Fija el div en la parte superior de la ventana */
@@ -58,7 +59,8 @@ h1 {
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 80px;
 }
 
 
@@ -69,25 +71,34 @@ nav ul {
     margin: 0 auto;
     /* Centra la lista horizontalmente */
     margin-top: 25px;
-    margin-left: 100px;
+    margin-right: 100px;
 
 }
 
 nav ul li {
     display: inline;
     /* Muestra los elementos de la lista en línea */
-    margin-right: 55px;
+    margin-right: 10px;
     /* Espacio entre elementos de la lista */
 
 }
 
 nav ul li a {
-    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F24C3D;
     /* Color de texto claro */
     text-decoration: none;
     /* Quita el subrayado del enlace */
     font-size: 19px;
     cursor: url(../images/iconcurso.ico), auto;
+    border: 0.5px solid #000000;
+    border-radius: 3px;
+    padding: 5px;
+    /* background-color: #F24C3D; */
+    /* Cambia el color de fondo del botón */
+
+    /* Subraya el enlace al pasar el ratón */
+
 }
 
 nav ul li a:hover {
@@ -99,7 +110,10 @@ nav ul li a:hover {
 
     /* Subraya el enlace al pasar el ratón */
     color: #F24C3D;
+
 }
+
+
 
 .div2 {
 
@@ -124,13 +138,41 @@ nav ul li a:hover {
     /* Asegura que el video esté detrás del contenido */
     object-fit: cover;
     /* Asegura que el video ocupe todo el contenedor */
+
 }
+
+.div3 {}
 
 
 /* FOOTER */
 
 .footer__img {
     width: 35px;
+}
+
+.footer_redes {
+    display: flex;
+    width: 100%;
+    height: 0%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-image: linear-gradient(180deg, #00000059 0%, #0000002c 100%);
+    /* background-size: cover; */
+    margin-top: 10px;
+
+
+}
+
+
+.container_footer {
+
+    margin-top: 20px;
+    font-size: 70%;
+    text-align: center;
+    justify-content: center;
+
+
 }
 
 .footerversicule {
