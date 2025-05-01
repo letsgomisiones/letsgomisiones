@@ -85,16 +85,16 @@ nav ul li {
 
 nav ul li a {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #F24C3D;
+    color: #ffffff;
     /* Color de texto claro */
     text-decoration: none;
     /* Quita el subrayado del enlace */
     font-size: 19px;
     cursor: url(../images/iconcurso.ico), auto;
-    border: 0.5px solid #000000;
+    border: 0.5px solid #F24C3D;
     border-radius: 3px;
     padding: 5px;
-    /* background-color: #F24C3D; */
+    background-color: #f24c3d28;
     /* Cambia el color de fondo del botón */
 
     /* Subraya el enlace al pasar el ratón */
