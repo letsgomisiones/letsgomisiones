@@ -71,6 +71,10 @@ h1 {
     margin-right: 50px;
 }
 
+.logo:hover {
+    transform: scale(1.2);
+}
+
 .logodonacion {
     width: 50px;
     height: auto;
@@ -79,6 +83,11 @@ h1 {
     /* margin-bottom: 10px; */
     margin-left: 30px;
     margin-right: 50px;
+}
+
+.logodonacion:hover {
+    transform: scale(1.2);
+
 }
 
 
@@ -268,6 +277,10 @@ footer {
     background-color: #f24c3d;
     margin: 4px 0;
     border-radius: 2px;
+}
+
+.menu-icon:hover {
+    transform: scale(1.2);
 }
 
 /* Estilos base del menú */
