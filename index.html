@@ -99,30 +99,28 @@
             <p>
                 Este sitio utiliza cookies para mejorar tu experiencia.
                 Al continuar navegando, aceptas su uso.
-                <a href="politica.html" target="_blank" style="color: #FF5B3A; text-decoration: underline;">
+                <a href="./assets/pages/politica.html" target="_blank"
+                    style="color: #FF5B3A; text-decoration: underline;">
                     Leer política de privacidad
                 </a>
             </p>
             <button id="accept-cookies">Aceptar</button>
         </div>
-
-
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const banner = document.getElementById('cookie-banner');
-                const btn = document.getElementById('accept-cookies');
-
-                if (!localStorage.getItem('cookiesAccepted')) {
-                    banner.style.display = 'flex';
-                }
-
-                btn.addEventListener('click', function () {
-                    localStorage.setItem('cookiesAccepted', 'true');
-                    banner.style.display = 'none';
-                });
-            });
-        </script>
-
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const banner = document.getElementById('cookie-banner');
+        const btn = document.getElementById('accept-cookies');
+
+        if (!localStorage.getItem('cookiesAccepted')) {
+            banner.style.display = 'flex';
+        }
+
+        btn.addEventListener('click', function () {
+            localStorage.setItem('cookiesAccepted', 'true');
+            banner.style.display = 'none';
+        });
+    });
+</script>
 
 </html>
