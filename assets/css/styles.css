@@ -228,7 +228,7 @@ nav ul li a:hover {
 .div2 div h3 {
     font-size: 85px;
     margin-top: 15%;
-    color: white;
+    color: rgba(255, 255, 255, 0.884);
 
     /* color: #f0e9e8; */
     font-family: 'Springwood';
@@ -280,7 +280,7 @@ iframe {
 .sectione1 h3 {
     font-size: 85px;
     margin-top: 15%;
-    color: white;
+    color: rgba(255, 255, 255, 0.884);
 
     /* color: #f0e9e8; */
     font-family: 'Springwood';
@@ -325,12 +325,26 @@ iframe {
     height: auto;
     object-fit: cover;
     /* Mantiene el recorte bonito si cambias height */
-    border-radius: 10px;
+    border-radius: 130px;
     /* Opcional: bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Opcional: sombra */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    filter: blur(5px);
+    /* Imagen inicialmente borrosa */
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    /* Transición suave */
+}
+
+.imagenes-vc img:hover {
+    filter: brightness(1.2) blur(0);
+    /* Aumenta el brillo y quita el desenfoque */
+    transform: scale(1.05);
+    /* Escala ligeramente la imagen */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    /* Sombra más intensa */
 
 }
+
 
 .miercolesd3 {
     max-width: 100%;
@@ -367,8 +381,24 @@ iframe {
     /* Mantiene el recorte bonito si cambias height */
     border-radius: 10px;
     /* Opcional: bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    /* Opcional: sombra */
+    border-radius: 130px;
+    /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    filter: blur(5px);
+    /* Imagen inicialmente borrosa */
+    transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+    /* Transición suave */
+
+}
+
+.imagenes-d3 img:hover {
+    filter: brightness(1.2) blur(0);
+    /* Aumenta el brillo y quita el desenfoque */
+    transform: scale(1.05);
+    /* Escala ligeramente la imagen */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    /* Sombra más intensa */
 
 }
 
