@@ -225,6 +225,21 @@ nav ul li a:hover {
 
 }
 
+.div2 div h3 {
+    font-size: 85px;
+    margin-top: 15%;
+    color: white;
+
+    /* color: #f0e9e8; */
+    font-family: 'Springwood';
+    text-align: center;
+    text-shadow:
+        /* -2px -2px 0 black,
+            2px -2px 0 black, */
+        -2px 5px 0 black,
+        2px 6px 0 #FF5B3A;/
+}
+
 .ttecendidos {
     width: 20%;
     height: 10%;
@@ -260,6 +275,21 @@ iframe {
     width: 400px;
     height: 315px;
     border-radius: 5%;
+}
+
+.sectione1 h3 {
+    font-size: 85px;
+    margin-top: 15%;
+    color: white;
+
+    /* color: #f0e9e8; */
+    font-family: 'Springwood';
+    text-align: center;
+    text-shadow:
+        /* -2px -2px 0 black,
+            2px -2px 0 black, */
+        -2px 5px 0 black,
+        2px 6px 0 #FF5B3A;/
 }
 
 .Lunesvc {
