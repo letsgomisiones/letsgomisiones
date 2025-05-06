@@ -1,22 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', function () {
     const splash = document.getElementById('splash');
-    const contenido = document.getElementById('contenido-principal');
-    const imagenes = document.querySelectorAll('.carousel-img');
-
+    const closeBtn = document.getElementById('close-splash');
+    const images = document.querySelectorAll('.carousel-img');
     let index = 0;
-    const duracion = 2000;
 
-    function mostrarCarrusel() {
-        imagenes.forEach((img, i) => {
-            img.classList.toggle('active', i === index);
-        });
-        index = (index + 1) % imagenes.length;
+    function showNextImage() {
+        images[index].classList.remove('active');
+        index = (index + 1) % images.length;
+        images[index].classList.add('active');
     }
 
-    let interval = setInterval(mostrarCarrusel, duracion);
-    setTimeout(() => {
-        clearInterval(interval);
-        splash.style.display = 'close-splash';
-        contenido.style.display = 'block';
-    }, imagenes.length * duracion);
+    setInterval(showNextImage, 3000); // Cambia imagen cada 3 segundos
+
+    closeBtn.addEventListener('click', function () {
+        splash.style.display = 'none';
+    });
 });
