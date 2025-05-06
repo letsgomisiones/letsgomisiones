@@ -10,6 +10,18 @@
 </head>
 
 <body>
+
+    <!-- Splash screen -->
+    <!-- <div id="splash" class="splash-screen">
+        <div class="splash-content">
+            <span id="close-splash" class="close-btn">X</span>
+            <div class="carousel">
+                <img src="./assets/images/Devocional 1.jpg" class="carousel-img active" />
+                <img src="./assets/images/Devocional 2.jpg" class="carousel-img" />
+                <img src="./assets/images/Noche de vision 1 .jpg" class="carousel-img" />
+            </div>
+        </div>
+    </div> -->
     <div class="containerprincipal">
         <div class="div1">
             <a href=" index.html">
@@ -107,20 +119,8 @@
             <button id="accept-cookies">Aceptar</button>
         </div>
 </body>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const banner = document.getElementById('cookie-banner');
-        const btn = document.getElementById('accept-cookies');
 
-        if (!localStorage.getItem('cookiesAccepted')) {
-            banner.style.display = 'flex';
-        }
-
-        btn.addEventListener('click', function () {
-            localStorage.setItem('cookiesAccepted', 'true');
-            banner.style.display = 'none';
-        });
-    });
-</script>
+<!-- <script type="module" src="./assets/js/splash.js"></script> -->
+<script type="module" src="./assets/js/cookies.js"></script>
 
 </html>
