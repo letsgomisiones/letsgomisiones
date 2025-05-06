@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         images[index].classList.add('active');
     }
 
-    setInterval(showNextImage, 3000); // Cambia imagen cada 3 segundos
+    setInterval(showNextImage, 4000); // Cambia imagen cada 3 segundos
 
     closeBtn.addEventListener('click', function () {
         splash.style.display = 'none';
