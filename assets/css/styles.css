@@ -958,3 +958,85 @@ footer {
 .carousel-img.active {
     display: block;
 }
+
+/*Donaciones*/
+.donaciones-section {
+    /* padding: 20px 20px; */
+    text-align: center;
+    font-family: 'Springwood', sans-serif;
+    color: #FF5B3A;
+    /* background-color: #fff; */
+}
+
+.donaciones-section .h3 {
+    font-size: 20px;
+    color: #000;
+    background-color: white;
+}
+
+.video-donacion video {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.contenido-donacion p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    font-size: 1.2rem;
+
+    color: #fff5f5;
+    font-family: 'arialblack', sans-serif;
+    -webkit-text-stroke: 3px #FF5B3A;
+    /* borde negro */
+    paint-order: stroke fill;
+    text-align: center;
+    /* text-shadow:
+            -2px -2px 0 black,
+            2px -2px 0 black,
+            -2px 2px 0 rgb(206, 43, 43),
+            2px 2px 0 #ffffff; */
+}
+
+.botones-donacion {
+    display: inline;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-donar,
+.btn-whatsapp {
+    /* padding: 12px 24px;
+    background-color: #F24C3D;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Springwood', sans-serif;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    text-align: center; */
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-donar:hover,
+.btn-whatsapp:hover {
+    background-color: #ffffff;
+}
