@@ -496,7 +496,9 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
+    gap: 15px;
+    flex-wrap: wrap;
     /* max-width: 100%;
     padding: 0px 20px;
     margin-top: 15%;
